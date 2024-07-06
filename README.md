@@ -41,8 +41,11 @@ Omnilog is a Java-based application developed to simplify the analysis of IP add
 3. Explore detailed insights retrieved from whois.com and ipinfo.io.
 
 ## Contributions
-@zeezaynab - co-Author /br
-@Zojaja-naveed - co-Author
+## Contributors
+
+- [@zeezaynab](https://github.com/zeezaynab) - Co-author
+- [@Zojaja-Naveed](https://github.com/Zojaja-Naveed) - Co-author
+
 
 Contributions to Omnilog are welcome! If you have ideas for enhancements or find any issues, please submit them via GitHub issues.
 
