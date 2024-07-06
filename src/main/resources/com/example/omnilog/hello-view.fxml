@@ -10,7 +10,7 @@
    <children>
       <ImageView fitHeight="629.0" fitWidth="304.0" layoutX="19.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Omnilog%20(1).png" />
+            <Image url="@../../../images/Omnilog%20(1).png" />
          </image>
       </ImageView>
       <Button fx:id="start" layoutX="47.0" layoutY="459.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="48.0" prefWidth="235.0" styleClass="rounded-transparent-button" stylesheets="@../../../stye.css" text="lets get started!" textFill="#e1d4de">

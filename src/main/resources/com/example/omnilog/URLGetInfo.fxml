@@ -17,7 +17,7 @@
         </ImageView>
         <ImageView fitHeight="315.0" fitWidth="242.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true">
             <image>
-                <Image url="@../../../webgif.png" />
+                <Image url="@../../../images/webgif.png" />
             </image>
         </ImageView>
         <Button fx:id="b1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="37.0" styleClass="rounded-transparent-button2" stylesheets="@../../../stye.css" text="⬅" textFill="#d4d2d2" />

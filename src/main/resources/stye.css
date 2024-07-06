@@ -3,9 +3,7 @@
     -fx-border-radius: 15;
     -fx-background-color: #ffffff;
 }
-.main_bg{
-    -fx-background-color: #30b3ae;
-}
+
 .rounded-transparent-textfield {
     -fx-background-radius: 25;
     -fx-background-color:#B88999;
@@ -46,10 +44,7 @@
 .scene2_bg{
     -fx-background-color: #f5fdff;
 }
-.scene2_upper{
-    -fx-background-color: #01c7c8;
 
-}
 .line_below_name{
     -fx-background-color: #ffffff;
 }

@@ -27,7 +27,7 @@
          </font></Button>
       <ImageView fitHeight="176.0" fitWidth="177.0" layoutX="78.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../loc.png" />
+            <Image url="@../../../images/loc.png" />
          </image>
       </ImageView>
     </children>
