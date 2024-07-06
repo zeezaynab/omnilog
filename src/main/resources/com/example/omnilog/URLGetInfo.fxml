@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="330.0" style="-fx-background-color: d4d2d2;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.omnilog.URLGetInfo">
+    <children>
+        <ImageView fitHeight="49.0" fitWidth="130.0" layoutX="100.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../om_final.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="315.0" fitWidth="242.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../webgif.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="b1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="37.0" styleClass="rounded-transparent-button2" stylesheets="@../../../stye.css" text="⬅" textFill="#d4d2d2" />
+        <Label fx:id="L1" layoutX="26.0" layoutY="269.0" prefHeight="36.0" prefWidth="242.0" text="Enter the URL below:" textFill="#b88999">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="T1" layoutX="17.0" layoutY="317.0" opacity="0.72" prefHeight="48.0" prefWidth="290.0" promptText="e.g google" styleClass="rounded-transparent-textfield" stylesheets="@../../../stye.css">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="S1" layoutX="102.0" layoutY="375.0" mnemonicParsing="false" onAction="#Search" prefHeight="42.0" prefWidth="111.0" styleClass="rounded-transparent-button2" stylesheets="@../../../stye.css" text="Search" textFill="#d4d2d2">
+            <font>
+                <Font name="Yu Gothic Regular" size="16.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

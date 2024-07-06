@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="330.0" style="-fx-background-color: d4d2d2;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.omnilog.GeoGet">
+    <children>
+        <Button fx:id="back" layoutX="16.0" layoutY="21.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="38.0" styleClass="rounded-transparent-button2" stylesheets="@../../../stye.css" text="⬅" textFill="#eae3e3" />
+        <Label layoutX="21.0" layoutY="277.0" prefHeight="42.0" prefWidth="285.0" text="Enter the IP address below:" textFill="#b88999">
+            <font>
+                <Font name="Arial Nova" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="t1" layoutX="19.0" layoutY="333.0" opacity="0.72" prefHeight="48.0" prefWidth="290.0" promptText="  e.g 192.168.1.1" styleClass="rounded-transparent-textfield" stylesheets="@../../../stye.css">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <Button fx:id="enter" layoutX="109.0" layoutY="398.0" mnemonicParsing="false" onAction="#enter" prefHeight="42.0" prefWidth="111.0" styleClass="rounded-transparent-button" stylesheets="@../../../stye.css" text="Search" textFill="#d4d2d2">
+         <font>
+            <Font name="Yu Gothic Bold" size="19.0" />
+         </font></Button>
+      <ImageView fitHeight="176.0" fitWidth="177.0" layoutX="78.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../loc.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

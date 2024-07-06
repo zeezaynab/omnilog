@@ -1,0 +1,53 @@
+/* style.css */
+
+
+
+/* Styling for the TableView */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+
+
+.table-view .table-row-cell {
+    -fx-background-color: #dcdde1, transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #c4c4c4;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #444444;
+    -fx-font-size: 12px;
+}
+
+/* Alternating row colors */
+.table-view .table-row-cell:odd {
+    -fx-background-color: #B88999;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #EAD0D9;
+}
+
+/* Styling for Text */
+.text {
+    -fx-fill: black; /* Text color black */
+    -fx-font-size: 12px; /* Font size 12px */
+    -fx-font-weight: regular; /* Regular font weight */
+    -fx-font-family: "Yu Gothic"; /* Font family Yu Gothic */
+}
+
+.table-view .column-header {
+    -fx-background-color: #A67989; /* Darker background color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-weight: bold; /* Font weight */
+    -fx-font-family: "Yu Gothic"; /* Font family */
+    -fx-text-fill: black; /* Text color */
+    -fx-border-width: 0 0 1px 0; /* Bottom border */
+    -fx-border-color: #c4c4c4; /* Border color */
+    -fx-alignment: CENTER; /* Center alignment */
+}
+
+

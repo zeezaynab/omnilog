@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="330.0" style="-fx-background-color: #DFDFDF;" stylesheets="@../../../stye.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.omnilog.Menu">
+   <children>
+      <Button fx:id="b3" layoutX="22.0" layoutY="291.0" mnemonicParsing="false" onAction="#Link" prefHeight="58.0" prefWidth="285.0" stylesheets="@../../../stye.css" text="Geolocation" textAlignment="CENTER" textFill="#ead0d9">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+         <styleClass>
+            <String fx:value="rounded-transparent-button2" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Button>
+      <Button fx:id="b2" layoutX="22.0" layoutY="378.0" mnemonicParsing="false" onAction="#URLinfo" prefHeight="58.0" prefWidth="286.0" stylesheets="@../../../stye.css" text="URL Address" textFill="#ead0d9">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+         <styleClass>
+            <String fx:value="rounded-transparent-button2" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Button>
+      <Button fx:id="b1" layoutX="22.0" layoutY="463.0" mnemonicParsing="false" onAction="#IPinfo" prefHeight="58.0" prefWidth="286.0" stylesheets="@../../../stye.css" text="IP Address" textFill="#ead0d9">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+         <styleClass>
+            <String fx:value="rounded-transparent-button2" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Button>
+      <ImageView fitHeight="190.0" fitWidth="255.0" layoutX="47.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../12.png" />
+         </image>
+      </ImageView>
+      <Text fill="#b88999" layoutX="18.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an option amongst the following: ">
+         <font>
+            <Font name="Yu Gothic Bold" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="74.0" fitWidth="222.0" layoutX="82.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../oo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+.rounded-button {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-background-color: #ffffff;
+}
+.main_bg{
+    -fx-background-color: #30b3ae;
+}
+.rounded-transparent-textfield {
+    -fx-background-radius: 25;
+    -fx-background-color:#B88999;
+    -fx-border-radius: 15;
+}
+.rounded-transparent-button {
+    -fx-background-radius: 25;
+    -fx-background-color: #B88999;
+    -fx-border-radius: 15;
+}
+.rounded-transparent-button5 {
+    -fx-background-radius: 25;
+    -fx-background-color: #EAD0D9;
+    -fx-border-radius: 15;
+}
+.rounded-transparent-button2 {
+    -fx-background-radius: 25;
+    -fx-background-color: #B88999;
+    -fx-border-radius: 15;
+}
+
+.typing-text {
+    -fx-font-family: "Gotham";
+    -fx-font-weight: bold;
+}
+/* style.css */
+.gradient {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #C13B34, #E8D5C7);
+
+}
+
+
+.rounded-transparent-button3 {
+    -fx-background-radius: 25;
+    -fx-background-color: #FFF7EA;
+    -fx-border-radius: 15;
+}
+.scene2_bg{
+    -fx-background-color: #f5fdff;
+}
+.scene2_upper{
+    -fx-background-color: #01c7c8;
+
+}
+.line_below_name{
+    -fx-background-color: #ffffff;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0.2, 3, 3);
+}
+.box{
+    -fx-background-radius: 25;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="330.0" style="-fx-background-color: #D4D2D2;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.omnilog.IPGetInfo">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="296.0" layoutX="17.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../mg.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputdata" layoutX="13.0" layoutY="311.0" opacity="0.72" prefHeight="48.0" prefWidth="290.0" promptText="Enter IP address (e.g., 192.168.100.1)" styleClass="rounded-transparent-textfield" stylesheets="@../../../stye.css">
+         <font>
+            <Font name="Yu Gothic Regular" size="15.0" />
+         </font></TextField>
+      <Button fx:id="back2" layoutX="13.0" layoutY="15.0" mnemonicParsing="false" onAction="#backM" prefHeight="36.0" prefWidth="38.0" styleClass="rounded-transparent-button2" stylesheets="@../../../stye.css" text="⬅" textFill="#fff7ea" />
+      <Button fx:id="getdata" layoutX="109.0" layoutY="373.0" mnemonicParsing="false" onAction="#getData" prefHeight="42.0" prefWidth="111.0" styleClass="rounded-transparent-button2" stylesheets="@../../../stye.css" text="Search" textFill="#dfdfdf">
+         <font>
+            <Font name="Yu Gothic Bold" size="19.0" />
+         </font></Button>
+      <Text fill="#b88999" layoutX="17.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the IP address below:" wrappingWidth="244.5367317199707">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
