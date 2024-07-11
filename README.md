@@ -27,7 +27,7 @@ Omnilog is a Java-based application developed to simplify the analysis of IP add
 
 1. Clone the repository from GitHub:
    ```
-   git clone https://github.com/your_username/omnilog.git
+   git clone https://github.com/zeezaynab/omnilog.git
    ```
    
 2. Open the project in IntelliJ IDEA or your preferred Java IDE.
