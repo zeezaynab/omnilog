@@ -40,7 +40,6 @@ Omnilog is a Java-based application developed to simplify the analysis of IP add
 2. Enter an IP address or URL to initiate analysis.
 3. Explore detailed insights retrieved from whois.com and ipinfo.io.
 
-## Contributions
 ## Contributors
 
 - [@zeezaynab](https://github.com/zeezaynab) - Co-author
